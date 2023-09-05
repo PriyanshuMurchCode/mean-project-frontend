@@ -10,7 +10,7 @@ import { MatToolbarModule } from '@angular/material/toolbar';
 import {MatExpansionModule} from '@angular/material/expansion';
 import { HeaderComponent } from './header/header.component';
 import { PostListComponent } from './posts/post-list/post-list.component'
-import { FormsModule } from '@angular/forms';
+import { ReactiveFormsModule } from '@angular/forms';
  
 
 @NgModule({
@@ -23,7 +23,7 @@ import { FormsModule } from '@angular/forms';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FormsModule,
+    ReactiveFormsModule,
     NoopAnimationsModule,
     MatInputModule,
     MatToolbarModule,
